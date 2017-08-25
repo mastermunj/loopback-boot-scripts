@@ -1,0 +1,27 @@
+{
+  "name": "loopback-boot-scripts",
+  "version": "1.0.0",
+  "description": "Collection of useful boot scripts for Loopback framework",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "babel lib -d dist --presets es2015,stage-0 --copy-files"
+  },
+  "keywords": [
+    "loopback",
+    "boot",
+    "scripts",
+    "utils"
+  ],
+  "author": "Munjal Dhamecha",
+  "license": "Apache2",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "lodash": "^4.17.4",
+    "loopback-datasource-juggler": "^3.11.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
