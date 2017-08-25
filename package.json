@@ -8,9 +8,9 @@
   },
   "keywords": [
     "loopback",
-    "boot",
-    "scripts",
-    "utils"
+    "loopback-boot",
+    "configuration",
+    "bootstrap"
   ],
   "author": "Munjal Dhamecha",
   "license": "Apache2",
@@ -23,5 +23,9 @@
     "babel-cli": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mastermunj/loopback-boot-scripts.git"
   }
 }
